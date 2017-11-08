@@ -4,6 +4,6 @@ language: bash
 
 script:
     
-    - mvn clean install -f artifactory-maven-plugin-example/pom.xml
+#    - mvn clean install -f artifactory-maven-plugin-example/pom.xml
     - bash sampbash.sh
 
