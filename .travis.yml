@@ -4,5 +4,5 @@ language: java
 
 script:
     
-    - mvn clean install -f maven-example/pom.xml
+    - mvn clean install -f artifactory-maven-plugin-example/pom.xml
 
