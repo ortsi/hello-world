@@ -2,8 +2,9 @@
 
     mvn -version
     java -version
-    which mvn
+    which mvn 
     echo
+    env
     echo $M2_HOME
     which java
     echo
