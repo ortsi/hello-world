@@ -1,0 +1,8 @@
+language: java
+
+
+
+script:
+    
+    - mvn clean install -f maven-example/pom.xml
+
