@@ -1,8 +1,9 @@
-language: java
+language: bash
 
 
 
 script:
     
     - mvn clean install -f artifactory-maven-plugin-example/pom.xml
+    - bash sampbash.sh
 
