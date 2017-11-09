@@ -8,7 +8,7 @@
     
     #export M2_SAMP=$(readlink -m $(dirname $(readlink -f $(which mvn)))/../)
     #echo $M2_SAMP
-    export TS=$(date)
+    export TS=$(date +%s)
     echo $TS
     
     echo FINISH
