@@ -3,9 +3,7 @@
     mvn -version
     java -version
     which mvn 
-    echo
-    env
-    echo $M2_HOME
-    which java
-    echo
-    echo $M2
+    export M2_SAMP=$(realpath $(dirname $(readlink -f $(which mvn)))/../../)
+    echo $M2_SAMP
+    
+
